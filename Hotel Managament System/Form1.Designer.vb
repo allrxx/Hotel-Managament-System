@@ -63,13 +63,13 @@ Partial Class Form1
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(598, 247)
+        Guna2TextBox1.Location = New Point(598, 218)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox1.Size = New Size(318, 45)
+        Guna2TextBox1.Size = New Size(318, 40)
         Guna2TextBox1.TabIndex = 0
         ' 
         ' Guna2TextBox2
@@ -83,15 +83,15 @@ Partial Class Form1
         Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F)
+        Guna2TextBox2.Font = New Font("Segoe UI", 9.0F)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(598, 315)
+        Guna2TextBox2.Location = New Point(598, 278)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox2.Size = New Size(318, 45)
+        Guna2TextBox2.Size = New Size(318, 40)
         Guna2TextBox2.TabIndex = 1
         ' 
         ' Guna2Button1
@@ -103,12 +103,12 @@ Partial Class Form1
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button1.FillColor = Color.FromArgb(CByte(128), CByte(99), CByte(69))
-        Guna2Button1.Font = New Font("Segoe UI", 9F)
+        Guna2Button1.Font = New Font("Segoe UI", 9.0F)
         Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(607, 400)
+        Guna2Button1.Location = New Point(607, 353)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button1.Size = New Size(301, 43)
+        Guna2Button1.Size = New Size(301, 38)
         Guna2Button1.TabIndex = 2
         Guna2Button1.Text = "Login"
         ' 
@@ -120,7 +120,7 @@ Partial Class Form1
         Guna2PictureBox1.Location = New Point(-2, -2)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(481, 586)
+        Guna2PictureBox1.Size = New Size(481, 517)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 3
         Guna2PictureBox1.TabStop = False
@@ -128,45 +128,45 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(731, 99)
+        Label1.Location = New Point(731, 87)
         Label1.Name = "Label1"
-        Label1.Size = New Size(0, 17)
+        Label1.Size = New Size(0, 15)
         Label1.TabIndex = 4
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(608, 229)
+        Label2.Location = New Point(608, 202)
         Label2.Name = "Label2"
-        Label2.Size = New Size(67, 17)
+        Label2.Size = New Size(60, 15)
         Label2.TabIndex = 5
         Label2.Text = "Username"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(608, 295)
+        Label3.Location = New Point(608, 260)
         Label3.Name = "Label3"
-        Label3.Size = New Size(64, 17)
+        Label3.Size = New Size(57, 15)
         Label3.TabIndex = 6
         Label3.Text = "Password"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 20F)
-        Label4.Location = New Point(572, 134)
+        Label4.Font = New Font("Segoe UI", 20.0F)
+        Label4.Location = New Point(572, 118)
         Label4.Name = "Label4"
-        Label4.Size = New Size(378, 41)
+        Label4.Size = New Size(337, 37)
         Label4.TabIndex = 7
         Label4.Text = "Hotel Management System"
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 17F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(215), CByte(208), CByte(192))
-        ClientSize = New Size(999, 585)
+        ClientSize = New Size(999, 516)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
