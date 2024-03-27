@@ -175,7 +175,9 @@ Partial Class Form2
         ' 
         Guna2GroupBox1.BackColor = Color.FromArgb(CByte(215), CByte(208), CByte(192))
         Guna2GroupBox1.BorderColor = Color.FromArgb(CByte(215), CByte(208), CByte(192))
-        Guna2GroupBox1.BorderRadius = 50
+        Guna2GroupBox1.BorderRadius = 10
+        Guna2GroupBox1.BorderStyle = Drawing2D.DashStyle.Dash
+        Guna2GroupBox1.BorderThickness = 0
         Guna2GroupBox1.Controls.Add(Guna2Button6)
         Guna2GroupBox1.Controls.Add(Guna2Button5)
         Guna2GroupBox1.Controls.Add(Guna2Button4)
@@ -189,7 +191,7 @@ Partial Class Form2
         Guna2GroupBox1.Location = New Point(12, 12)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Guna2GroupBox1.Size = New Size(835, 90)
+        Guna2GroupBox1.Size = New Size(844, 85)
         Guna2GroupBox1.TabIndex = 15
         Guna2GroupBox1.Text = "Guna2GroupBox1"
         ' 

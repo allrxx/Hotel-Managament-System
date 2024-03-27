@@ -18,6 +18,8 @@ Public Class Form1
                     If result > 0 Then
                         ' Login is successful.
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        Form2.Show()
+                        Me.Hide()
                     Else
                         ' Login failed.
                         MessageBox.Show("Login failed. Please check your username and password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
